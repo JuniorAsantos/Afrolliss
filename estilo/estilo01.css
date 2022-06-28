@@ -1,0 +1,96 @@
+@charset 'UTF-8';
+@font-face{
+    font-family:'AlexBrush' ;
+    src: url(../fonts/AlexBrush.ttf) format('truetype');
+}
+:root{
+    --font-salão:'AlexBrush', cursiva;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    background-image: url('../image/fundo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body {
+    width: 960px;
+    margin: auto;
+}
+
+#cab {
+    height: 150px;
+    margin-top: 5px;
+    box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+#cab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cab #subcab {
+    background-color: blue;
+    width: 400px;
+    height: 150px;
+}
+
+#subcab h1, p {
+    text-align: center;
+}
+
+#subcab h1 {
+    font-family: var(--font-salão);
+    font-size: 4.8em;
+    text-shadow: 2px 2px 3px #fff, 2px 2px 3px #000;
+}
+
+#subcab p {
+    font-size: 0.8em;
+}
+/* Formatando navegação*/
+#menu {
+    width: 150px;
+    height: 500px;
+    float: left;
+    margin: 15px 15px 15px 0px;
+    box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+#lateral {
+    width: 150px;
+    height: 500px;
+    float: right;
+    margin: 15px 0px 15px 15px;
+    box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+#corpo {
+    width: 630px;
+    height: 500px;
+    float: left;
+    margin: 15px 0px 15px 0px;
+    box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+#rodape {
+    width: 960px;
+    height: 50px;
+    float: left;
+    margin: 0px 0px 15px 0px;
+    box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
