@@ -40,23 +40,29 @@ body {
 }
 
 #cab #subcab {
-    background-color: blue;
     width: 400px;
     height: 150px;
 }
 
-#subcab h1, p {
+#cab #subcab h1, p {
     text-align: center;
+
 }
 
 #subcab h1 {
     font-family: var(--font-salão);
     font-size: 4.8em;
     text-shadow: 2px 2px 3px #fff, 2px 2px 3px #000;
+    line-height: 1;
+    margin-top: 0.3em;
 }
 
 #subcab p {
-    font-size: 0.8em;
+    font-family: var(--font-salão);
+    font-size: 1.4em;
+    line-height: 0px;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px #fff, 2px 2px 3px #000;
 }
 /* Formatando navegação*/
 #menu {
@@ -68,6 +74,59 @@ body {
     border-radius: 5px;
 }
 
+#menu {
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     
+}
+#menu ul {
+    flex-basis: 100%;
+    list-style: none;
+    margin-top: 3em;
+    /*border: 2px solid rgba(255, 255, 255, 0.5);*/
+}
+
+#menu li {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    font-style: italic;
+    margin-top: 0.5em;
+    /*border: 2px solid rgba(255, 255, 255, 0.5);*/
+}
+
+#menu ul #l1:hover {
+    flex-basis: 100%;
+    background-color: ;
+    box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.5);
+}
+
+#menu ul #l2:hover {
+    flex-basis: 100%;
+    background-color: ;
+    box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.5);
+}
+
+#menu ul #l3:hover {
+    flex-basis: 100%;
+    background-color: ;
+    box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.5);
+}
+
+#menu ul #l4:hover {
+    flex-basis: 100%;
+    background-color: ;
+    box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.5);
+}
+#menu a {
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    padding-left: 0.5em;
+    color: #fff;
+}
+
 #lateral {
     width: 150px;
     height: 500px;
@@ -76,7 +135,6 @@ body {
     box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
 }
-
 #corpo {
     width: 630px;
     height: 500px;
