@@ -14,141 +14,78 @@
     box-sizing: border-box;
 }
 
-body {
+html, body {
+    height: 100vh;
     background-color: bisque;
     background-image: url('../image/fundo.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
+    background-position:center center ;
 }
-body {
-    width: 960px;
+
+#cab {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.486);
+    height: 20vh;
+    width: 90vw;
+    margin: auto;
+    margin-top: 0.1em;
+    border-radius: 10px;
+}
+
+#cab > #subcab > h1 {
+    font-family: var(--font-salão);
+    font-size: 4.5em;
+    text-shadow: 2px 2px 2px cadetblue;
+}
+#cab > #subcab > h1:hover {
+    text-shadow: 2px 2px 4px cadetblue,
+     2px 2px 4px rgb(98, 109, 170);
+    filter: blur(10);
+    filter: brightness(1.5);
+}
+
+#cab > #subcab > p {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    font-style: italic;
+    line-height: 0px;
+    text-shadow: 1px 1px 1px cadetblue;
+}
+
+#menu > ul {
+    list-style-type: none;
+}
+
+#menu > ul > li {
+    display: inline-block;
+    margin-left: 1em;
+    margin-top: 1.5em;
+}
+
+#menu > ul > li > a {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.486);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#conteiner {
+    text-align: justify;
+    width: 70vw;
+    height: 50vh;
     margin: auto;
 }
 
-#cab {
-    height: 150px;
-    margin-top: 5px;
-    box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
-}
-
-#cab {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#cab #subcab {
-    width: 400px;
-    height: 150px;
-}
-
-#cab #subcab h1, p {
-    text-align: center;
-
-}
-
-#subcab h1 {
-    font-family: var(--font-salão);
-    font-size: 4.8em;
-    text-shadow: 2px 2px 3px #fff, 2px 2px 3px #000;
-    line-height: 1;
-    margin-top: 0.3em;
-}
-
-#subcab p {
-    font-family: var(--font-salão);
-    font-size: 1.4em;
-    line-height: 0px;
-    font-weight: bold;
-    text-shadow: 2px 2px 3px #fff, 2px 2px 3px #000;
-}
-/* Formatando navegação*/
-#menu {
-    width: 150px;
-    height: 500px;
-    float: left;
-    margin: 15px 15px 15px 0px;
-    box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
-}
-
-#menu {
-     display: flex;
-     justify-content: center;
-     align-items: flex-start;
-     
-}
-#menu ul {
-    flex-basis: 100%;
-    list-style: none;
+#conteiner > #corpo {
     margin-top: 3em;
-    /*border: 2px solid rgba(255, 255, 255, 0.5);*/
 }
 
-#menu li {
-    display: flex;
-    align-items: center;
-    height: 50px;
-    font-style: italic;
-    margin-top: 0.5em;
-    /*border: 2px solid rgba(255, 255, 255, 0.5);*/
-}
-
-#menu ul #l1:hover {
-    flex-basis: 100%;
-    background-color: ;
-    box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.5);
-}
-
-#menu ul #l2:hover {
-    flex-basis: 100%;
-    background-color: ;
-    box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.5);
-}
-
-#menu ul #l3:hover {
-    flex-basis: 100%;
-    background-color: ;
-    box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.5);
-}
-
-#menu ul #l4:hover {
-    flex-basis: 100%;
-    background-color: ;
-    box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.5);
-}
-#menu a {
-    text-decoration: none;
+#conteiner > #corpo > p {
+    font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
     font-weight: bold;
-    padding-left: 0.5em;
-    color: #fff;
-}
-
-#lateral {
-    width: 150px;
-    height: 500px;
-    float: right;
-    margin: 15px 0px 15px 15px;
-    box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
-}
-#corpo {
-    width: 630px;
-    height: 500px;
-    float: left;
-    margin: 15px 0px 15px 0px;
-    box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
-}
-
-#rodape {
-    width: 960px;
-    height: 50px;
-    float: left;
-    margin: 0px 0px 15px 0px;
-    box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
 }
