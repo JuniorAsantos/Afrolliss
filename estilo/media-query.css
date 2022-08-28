@@ -10,7 +10,7 @@
         position: relative;
         left: -15px;
         width: 96vw;
-        height: 20vh;
+        height: 15vh;
         margin: auto;
     }
 
@@ -41,32 +41,32 @@
     #conteiner {
         background-color: rgba(255, 255, 255, 0.486);
         width: 90vw;
-        height: 45vh;
+        height: 50vh;
         margin-top: 0px;
         border-radius: 5px;
     
     }
 
     #conteiner > #corpo {
-        margin-top: 1.6em;
-        padding: 1em;
+        margin-top: 3.7em;
+        padding: 0.8em;
     } 
 
     #conteiner > #corpo > p {
         font-family: 'Courier New', Courier, monospace;
-        font-size: 0.9em;
+        font-size: 0.8em;
         font-weight: bold;
     }
 
     #conteiner > #corpo2 {
         width: 40vw;
         margin: auto;
-        margin-top: 0.5em;
+        margin-top: 0.3em;
     
     }
     
     th{
-        font-size: 1.2em;
+        font-size: 1.1em;
         text-align: center;
     }
      th, td{
@@ -74,11 +74,11 @@
         font-weight: bold;
         margin: auto;
         padding: 0.1em;
-        background-color: rgba(255, 255, 255,0.1);
+        background-color: rgb(255, 255, 255,0.0);
         border-radius: 0px;
     }
     td {
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
     
 }
