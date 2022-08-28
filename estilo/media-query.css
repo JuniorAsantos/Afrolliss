@@ -6,14 +6,22 @@
         background-repeat: no-repeat;
     }
 
+    #cab > #subcab > h1 {
+        font-size: 4em;
+    }
+
+    #cab > #subcab > p {
+        font-size: 1em;
+    }
+
     #menu {
         position: relative;
         left: -15px;
         width: 96vw;
-        height: 15vh;
+        height: 12.5vh;
         margin: auto;
     }
-
+    
     #menu > ul > li {
         display:block;
         margin-top: 0.2em;
@@ -22,12 +30,13 @@
     #menu > ul > li > a {
         display: block;
         font-family: 'Courier New', Courier, monospace;
+        font-size: 0.8em;
         font-weight: bold;
         text-align: center;
         text-decoration: none;
         color: #000;
         background-color:  rgba(255, 255, 255, 0.486);
-        padding: 10px;
+        padding: 9px;
         border-radius: 5px;
     }
 
@@ -41,7 +50,7 @@
     #conteiner {
         background-color: rgba(255, 255, 255, 0.486);
         width: 90vw;
-        height: 50vh;
+        height: 45vh;
         margin-top: 0px;
         border-radius: 5px;
     
@@ -68,6 +77,7 @@
     th{
         font-size: 1.1em;
         text-align: center;
+        border-spacing: 0.5em;
     }
      th, td{
         font-family: 'Courier New', Courier, monospace;
@@ -76,6 +86,7 @@
         padding: 0.1em;
         background-color: rgb(255, 255, 255,0.0);
         border-radius: 0px;
+        
     }
     td {
         font-size: 0.8em;

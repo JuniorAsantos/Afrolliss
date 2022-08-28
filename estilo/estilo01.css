@@ -49,7 +49,6 @@ html, body {
     font-family:'Courier New', Courier, monospace;
     font-size: 1.2em;
     font-style: italic;
-    line-height: 0px;
     text-shadow: 1px 1px 1px cadetblue;
 }
 
@@ -57,7 +56,7 @@ html, body {
     position: relative;
     left: 40px;
     width: 90vw;
-    height: 8vh;
+    height: 5vh;
 }
 
 #menu > ul {
@@ -105,10 +104,14 @@ html, body {
 }
 
 #conteiner > #corpo2 {
-    width: 20vw;
+    width: 30vw;
     margin: auto;
     margin-top: 3em;
+}
 
+#corpo2 > #tabela {
+    margin: auto;
+    border-spacing: 10px;
 }
 
 th{
@@ -120,6 +123,8 @@ th{
     font-weight: bold;
     margin: auto;
     padding: 0.2em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
     background-color: rgba(255, 255, 255, 0.486);
     border-radius: 10px;
 }
