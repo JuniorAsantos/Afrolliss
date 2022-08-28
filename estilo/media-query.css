@@ -71,17 +71,20 @@
         width: 40vw;
         margin: auto;
         margin-top: 0.3em;
-    
+    }
+
+    #corpo2 > #tabela {
+        border-spacing: 0.2em;
     }
     
     th{
         font-size: 1.1em;
+        font-weight: bolder;
         text-align: center;
-        border-spacing: 0.5em;
     }
      th, td{
         font-family: 'Courier New', Courier, monospace;
-        font-weight: bold;
+        font-weight: 100px;
         margin: auto;
         padding: 0.1em;
         background-color: rgb(255, 255, 255,0.0);
@@ -89,7 +92,7 @@
         
     }
     td {
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
     
 }
