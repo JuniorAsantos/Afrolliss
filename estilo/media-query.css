@@ -50,7 +50,7 @@
     #conteiner {
         background-color: rgba(255, 255, 255, 0.486);
         width: 90vw;
-        height: 45vh;
+        height: 47vh;
         margin-top: 0px;
         border-radius: 5px;
     
@@ -58,12 +58,12 @@
 
     #conteiner > #corpo {
         margin-top: 4em;
-        padding: 0.7em;
+        padding: 0.8em;
     } 
 
     #conteiner > #corpo > p {
         font-family: 'Courier New', Courier, monospace;
-        font-size: 0.8em;
+        font-size: 0.7em;
         font-weight: bold;
     }
 
@@ -86,7 +86,7 @@
         font-family: 'Courier New', Courier, monospace;
         font-weight: 100px;
         margin: auto;
-        padding: 0.2em;
+        padding: 0.1em;
         background-color: rgb(255, 255, 255,0.0);
         border-radius: 4px;
         
