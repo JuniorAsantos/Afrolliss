@@ -29,7 +29,7 @@ html, body {
     height: 20vh;
     width: 90vw;
     margin: auto;
-    margin-top: 0.1em;
+    margin-top: 0em;
     border-radius: 10px;
 }
 
@@ -53,13 +53,20 @@ html, body {
     text-shadow: 1px 1px 1px cadetblue;
 }
 
+#menu {
+    position: relative;
+    left: 40px;
+    width: 90vw;
+    height: 8vh;
+}
+
 #menu > ul {
     list-style-type: none;
 }
 
 #menu > ul > li {
     display: inline-block;
-    margin-left: 1em;
+    margin-left: 2em;
     margin-top: 1.5em;
 }
 
@@ -73,6 +80,13 @@ html, body {
     border-radius: 10px;
 }
 
+#menu > ul > li > a:hover {
+    color: rgb(43, 97, 99);
+    background-color: antiquewhite;
+    border: 1px solid rgb(152, 184, 185);
+
+}
+
 #conteiner {
     text-align: justify;
     width: 70vw;
@@ -81,7 +95,7 @@ html, body {
 }
 
 #conteiner > #corpo {
-    margin-top: 3em;
+    margin-top: 2em;
 }
 
 #conteiner > #corpo > p {
@@ -89,3 +103,25 @@ html, body {
     font-size: 1em;
     font-weight: bold;
 }
+
+#conteiner > #corpo2 {
+    width: 20vw;
+    margin: auto;
+    margin-top: 3em;
+
+}
+
+th{
+    font-size: 1.5em;
+    text-align: center;
+}
+ th, td{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: auto;
+    padding: 0.2em;
+    background-color: rgba(255, 255, 255, 0.486);
+    border-radius: 10px;
+}
+
+

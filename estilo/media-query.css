@@ -6,7 +6,16 @@
         background-repeat: no-repeat;
     }
 
+    #menu {
+        position: relative;
+        left: -15px;
+        width: 96vw;
+        height: 20vh;
+        margin: auto;
+    }
+
     #menu > ul > li {
+        display:block;
         margin-top: 0.2em;
     }
 
@@ -18,10 +27,7 @@
         text-decoration: none;
         color: #000;
         background-color:  rgba(255, 255, 255, 0.486);
-        margin: auto;
-        width: 90vw;
-        height: 5vh;
-        padding: 5px;
+        padding: 10px;
         border-radius: 5px;
     }
 
@@ -35,16 +41,44 @@
     #conteiner {
         background-color: rgba(255, 255, 255, 0.486);
         width: 90vw;
-        height: 40vh;
-        margin-top: 0.2em;
-        padding: 10px;
+        height: 45vh;
+        margin-top: 0px;
         border-radius: 5px;
+    
     }
+
+    #conteiner > #corpo {
+        margin-top: 1.6em;
+        padding: 1em;
+    } 
 
     #conteiner > #corpo > p {
         font-family: 'Courier New', Courier, monospace;
-        font-size: 1em;
+        font-size: 0.9em;
         font-weight: bold;
+    }
+
+    #conteiner > #corpo2 {
+        width: 40vw;
+        margin: auto;
+        margin-top: 0.5em;
+    
+    }
+    
+    th{
+        font-size: 1.2em;
+        text-align: center;
+    }
+     th, td{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        margin: auto;
+        padding: 0.1em;
+        background-color: rgba(255, 255, 255,0.1);
+        border-radius: 0px;
+    }
+    td {
+        font-size: 0.9em;
     }
     
 }
