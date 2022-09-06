@@ -97,3 +97,50 @@
     }
     
 }
+/* Orientação Deitado */
+@media screen and (orientation: landscape){
+    #cab {
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.486);
+        height: 40vh;
+        width: 92vw;
+        margin: auto;
+        margin-top: 0em;
+        border-radius: 10px;
+    }
+
+    #cab > #subcab > h1 {
+        font-family: var(--font-salão);
+        font-size: 3em;
+        text-shadow: 2px 2px 2px cadetblue;
+    }
+
+    #cab > #subcab > p {
+        font-family:'Courier New', Courier, monospace;
+        font-size: 1em;
+        font-style: italic;
+        text-shadow: 1px 1px 1px cadetblue;
+    }
+
+    #menu {
+        position: relative;
+        left: auto;
+        height: 2vh;
+    }
+
+    #menu > ul > li {
+        display:inline-block;
+        width: 18vw;
+    }
+
+    #conteiner {
+        text-align: justify;
+        width: 80vw;
+        height: 72vh;
+    }
+
+    #conteiner > #corpo {
+        margin-top: 2.2em;
+    }
+    
+}
