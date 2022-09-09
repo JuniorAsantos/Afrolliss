@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 768px) {
     html, body {
         background-image: url('../image/fundo02.jpg');
         background-repeat: no-repeat;
@@ -50,7 +49,7 @@
     #conteiner {
         background-color: rgba(255, 255, 255, 0.486);
         width: 90vw;
-        height: 47vh;
+        height: 40vh;
         margin-top: 0px;
         border-radius: 5px;
     
@@ -95,52 +94,3 @@
         font-size: 0.7em;
         background-color: rgb(237, 239, 241);
     }
-    
-}
-/* Orientação Deitado */
-@media screen and (orientation: landscape){
-    #cab {
-        text-align: center;
-        background-color: rgba(255, 255, 255, 0.486);
-        height: 35vh;
-        width: 92vw;
-        margin: auto;
-        margin-top: 0em;
-        border-radius: 10px;
-    }
-
-    #cab > #subcab > h1 {
-        font-family: var(--font-salão);
-        font-size: 3em;
-        text-shadow: 2px 2px 2px cadetblue;
-    }
-
-    #cab > #subcab > p {
-        font-family:'Courier New', Courier, monospace;
-        font-size: 1em;
-        font-style: italic;
-        text-shadow: 1px 1px 1px cadetblue;
-    }
-
-    #menu {
-        position: relative;
-        left: auto;
-        height: 2vh;
-    }
-
-    #menu > ul > li {
-        display:inline-block;
-        width: 18vw;
-    }
-
-    #conteiner {
-        text-align: justify;
-        width: 80vw;
-        height: 70vh;
-    }
-
-    #conteiner > #corpo {
-        margin-top: 2.2em;
-    }
-    
-}
