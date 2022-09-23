@@ -37,9 +37,10 @@ html, body {
     font-size: 4.5em;
     text-shadow: 2px 2px 2px cadetblue;
 }
+
 #cab > #subcab > h1:hover {
     text-shadow: 2px 2px 4px cadetblue,
-     2px 2px 4px rgb(98, 109, 170);
+        2px 2px 4px rgb(98, 109, 170);
     filter: blur(10);
     filter: brightness(1.5);
 }
@@ -49,6 +50,7 @@ html, body {
     font-size: 1.2em;
     font-style: italic;
     text-shadow: 1px 1px 1px cadetblue;
+    line-height: 1px;
 }
 
 #menu {
@@ -117,7 +119,7 @@ th{
     font-size: 1.5em;
     text-align: center;
 }
- th, td{
+    th, td{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     margin: auto;
@@ -127,5 +129,204 @@ th{
     background-color: rgba(255, 255, 255, 0.486);
     border-radius: 10px;
 }
+    
+@media  screen and (max-width: 786px) {
+    html, body {
+        height: 100vh;
+        background-color: bisque;
+        background-image: url('../image/fundo.jpg');
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    
+    #cab {
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.486);
+        height: 20vh;
+        width: 90vw;
+        margin: auto;
+        margin-top: 0em;
+        border-radius: 10px;
+    }
+    #cab > #subcab > h1 {
+        font-family: var(--font-salão);
+        font-size: 2.4em;
+        text-shadow: 2px 2px 2px cadetblue;
+    }
+    
+    #cab > #subcab > h1:hover {
+        text-shadow: 2px 2px 4px cadetblue,
+            2px 2px 4px rgb(98, 109, 170);
+        filter: blur(10);
+        filter: brightness(1.5);
+    }
+    
+    #cab > #subcab > p {
+        font-family:'Courier New', Courier, monospace;
+        font-size: 0.7em;
+        font-style: italic;
+        text-shadow: 1px 1px 1px cadetblue;
+        line-height: 0.9px;
+    }
+
+    #menu {
+        height: 2vh;
+    }
+
+    #menu > ul > li {
+        margin-left: 1.5em;
+        margin-top: 0.5em;
+    }
+
+    #menu > ul > li > a {
+        font-size: 0.7em;
+        padding: 6px;
+        border-radius: 7px;
+    }
+
+    #conteiner {
+        text-align: justify;
+        width: 70vw;
+        height: 50vh;
+        margin: auto;
+    }
+    
+    #conteiner > #corpo {
+        margin-top: 2em;
+    }
+    
+    #conteiner > #corpo > p {
+        font-size: 0.7em;
+    }
+
+    #conteiner > #corpo2 {
+        width: 30vw;
+        margin: auto;
+        margin-top: 0.4em;
+    }
+    
+    #corpo2 > #tabela {
+        border-spacing: 5px;
+    }
+    
+    th{
+        font-size: 1em;
+        text-align: center;
+    }
+    td {
+        font-size: 0.7em;
+    }
+    th, td{
+        padding: 0.1em;
+        padding-left: 0.4em;
+        padding-right: 0.4em;
+        border-radius: 8px;
+    }
+    
+}
+
+/* declarações retrato */
+@media screen and (orientation: portrait) {
+    html, body {
+        background-image: url('../image/fundo02.jpg');
+        background-repeat: no-repeat;
+    }
+
+    #cab > #subcab > h1 {
+        font-size: 4em;
+    }
+
+    #cab > #subcab > p {
+        font-size: 1em;
+    }
+
+    #menu {
+        position: relative;
+        left: -15px;
+        width: 96vw;
+        height: 12.5vh;
+        margin: auto;
+    }
+    
+    #menu > ul > li {
+        display:block;
+        margin-top: 0.2em;
+    }
+
+    #menu > ul > li > a {
+        display: block;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 0.8em;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        color: #000;
+        background-color:  rgba(255, 255, 255, 0.486);
+        padding: 9px;
+        border-radius: 5px;
+    }
+
+    #menu > ul > li > a:hover {
+        color: rgb(43, 97, 99);
+        background-color: antiquewhite;
+        border: 1px solid rgb(152, 184, 185);
+
+    }
+    
+    #conteiner {
+        background-color: rgba(255, 255, 255, 0.486);
+        width: 90vw;
+        height: 40vh;
+        margin-top: 0px;
+        border-radius: 5px;
+    
+    }
+
+    #conteiner > #corpo {
+        margin-top: 4em;
+        padding: 0.8em;
+    } 
+
+    #conteiner > #corpo > p {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 0.7em;
+        font-weight: bold;
+    }
+
+    #conteiner > #corpo2 {
+        width: 40vw;
+        margin: auto;
+        margin-top: 0em;
+    }
+
+    #corpo2 > #tabela {
+        border-spacing: 0.2em;
+    }
+    
+    th{
+        font-size: 1.1em;
+        font-weight: bolder;
+        text-align: center;
+    }
+     th, td{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 100px;
+        margin: auto;
+        padding: 0.1em;
+        background-color: rgb(255, 255, 255,0.0);
+        border-radius: 4px;
+        
+    }
+    td {
+        font-size: 0.7em;
+        background-color: rgb(237, 239, 241);
+    }
+    
+}
+
+    
+
+
+
 
 
